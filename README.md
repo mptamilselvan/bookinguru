@@ -94,7 +94,7 @@ GET /api/cities?country=PL
 
 3. Install dependencies:
    ```bash
-   npm install
+   npm install --legacy-peer-deps
    ```
 
 4. Configure environment variables:
