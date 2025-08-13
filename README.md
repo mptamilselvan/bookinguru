@@ -83,30 +83,33 @@ GET /api/cities?country=PL
 ```
 
 ## Running the Application
-
-1. Navigate to the cities-api directory:
+1. Clone the repository
    ```bash
-   cd cities-api
+   git clone https://github.com/mptamilselvan/bookinguru.git
+   ```
+2. Navigate to the cities-api directory:
+   ```bash
+   cd bookinguru
    ```
 
-2. Install dependencies:
+3. Install dependencies:
    ```bash
    npm install
    ```
 
-3. Configure environment variables:
+4. Configure environment variables:
    ```bash
    cp .env.example .env
    # Edit .env file with your configuration
    ```
 
-4. Start the development server:
+5. Start the development server:
    ```bash
    npm run start:dev
    ```
 
-5. The API will be available at `http://localhost:3000` (or your configured PORT)
-6. Swagger documentation will be available at `http://localhost:3000/api-docs` (or your configured PORT)
+6. The API will be available at `http://localhost:3000` (or your configured PORT)
+7. Swagger documentation will be available at `http://localhost:3000/api-docs` (or your configured PORT)
 
 ## Testing
 
